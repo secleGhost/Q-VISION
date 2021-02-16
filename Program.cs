@@ -110,6 +110,7 @@ namespace ConsoleApp82
                     {
                     }
                 }
+                //Change users and passwords Brute Force FTP
                 string[] usuario = { "ftp", "anonymous", "admin", "guest" };
                 string[] contrasenas = { "ftp", "password", "root", "admin", "toor", "12345", "guest" };
                 ftpvivos = new string[valor];
@@ -193,7 +194,7 @@ namespace ConsoleApp82
                 en2 = "Timeout in milliseconds";
                 en3 = "Enter the IP number to generate";
                 en4 = "Enter the port";
-                en5 = "Select the location where the txt with the ip's will be saved Example: C: Users \\ Hacker \\ Desktop";
+                en5 = "Select the location where the txt with the ip's will be saved Example: C: Users\\Hacker\\Desktop";
                 en6 = "Name of the txt to generate";
                 en7 = "1-Check ip and port \n2-Do not check";
                 en8 = "Enter the number of Threads to use";
@@ -226,7 +227,7 @@ namespace ConsoleApp82
                 en2 = "Tiemout en milisegundos";
                 en3 = "Ingrese el número de IP para generar";
                 en4 = "Ingrese el puerto";
-                en5 = "Seleccione la ubicación donde se guardará el txt con las ip's Ejemplo: C: Users \\ Hacker \\ Desktop";
+                en5 = "Seleccione la ubicación donde se guardará el txt con las ip's Ejemplo: C: Users\\Hacker\\Desktop";
                 en6 = "Nombre del txt a generar";
                 en7 = "1-Verificar ip y puerto \n2-No verificar";
                 en8 = "Ingrese el número de hilos a utilizar";
