@@ -10,7 +10,8 @@ namespace ConsoleApp82
     {
         //MADE BY ATERRAGON
         //HECHO POR ATERRAGON
-
+        //MADE BY  secleGhost 
+        //HECHO POR  secleGhost 
         // HILO GENERAL
         public static void General(object parameters)
         {
