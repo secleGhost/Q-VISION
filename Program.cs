@@ -644,7 +644,7 @@ namespace ConsoleApp82
                 }
                 if (des == 2)
                 {
-                    int longitud = 65000;
+                    int longitud = 65535;
                     int[] puertos = new int[longitud];
                     Console.WriteLine("{0}", en5);
                     string path1 = Convert.ToString(Console.ReadLine());
@@ -655,7 +655,7 @@ namespace ConsoleApp82
                     Console.Clear();
                     Console.WriteLine("{0}", em4);
 
-                    for (int i = 0; i < 65000; i++)
+                    for (int i = 0; i < 65535; i++)
                     {
                         int port = Convert.ToInt32(Console.ReadLine());
 
